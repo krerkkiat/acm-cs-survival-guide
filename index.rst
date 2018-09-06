@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-ACM Survival Guide
+ACM CS Survival Guide
 ==============================================
 
 ACM (Association for Computing Machinery) meets every Wednesday 7:30pm at ARC 106.

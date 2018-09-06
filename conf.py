@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'ACM Survival Guide'
+project = 'ACM CS Survival Guide'
 copyright = '2018, Krerkkiat Chusap'
 author = 'Krerkkiat Chusap'
 
@@ -105,7 +105,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'ACMSurvivalGuidedoc'
+htmlhelp_basename = 'ACMCSSurvivalGuidedoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -132,7 +132,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'ACMSurvivalGuide.tex', 'ACM Survival Guide Documentation',
+    (master_doc, 'ACMCSSurvivalGuide.tex', 'ACM CS Survival Guide',
      'Krerkkiat Chusap', 'manual'),
 ]
 
@@ -142,7 +142,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'acmsurvivalguide', 'ACM Survival Guide Documentation',
+    (master_doc, 'acmcssurvivalguide', 'ACM CS Survival Guide',
      [author], 1)
 ]
 
@@ -153,8 +153,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'ACMSurvivalGuide', 'ACM Survival Guide Documentation',
-     author, 'ACMSurvivalGuide', 'One line description of project.',
+    (master_doc, 'ACMCSSurvivalGuide', 'ACM CS Survival Guide',
+     author, 'ACMCSSurvivalGuide', 'A survival guide for CS student.',
      'Miscellaneous'),
 ]
 
@@ -189,3 +189,17 @@ todo_include_todos = True
 
 # My Custom.
 html_theme = "sphinx_rtd_theme"
+
+latex_engine = 'pdflatex'
+latex_elements = {
+    'preamble': r'''
+\usepackage[titles]{tocloft}
+\cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
+\setlength{\cftchapnumwidth}{0.75cm}
+\setlength{\cftsecindent}{\cftchapnumwidth}
+\setlength{\cftsecnumwidth}{1.25cm}
+''',
+    'fncychap': r'\usepackage[Bjornstrup]{fncychap}',
+    'printindex': r'\footnotesize\raggedright\printindex',
+}
+latex_show_urls = 'footnote'
