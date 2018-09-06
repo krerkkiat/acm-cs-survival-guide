@@ -10,14 +10,10 @@ ACM (Association for Computing Machinery) meets every Wednesday 7:30pm at ARC 10
 
 We also host study session on every Friday (time is TBD).
 
+This is a work in progress, please check back later.
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
    
-   introduction
-   servers
-   basic-linux-commandline
-   editor 
-   virtualization
-   more
    about
