@@ -20,8 +20,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'ACM CS Survival Guide'
-copyright = '2018, Krerkkiat Chusap'
-author = 'Krerkkiat Chusap'
+copyright = '2018, OU ACM'
+author = 'OU ACM'
 
 # The short X.Y version
 version = ''
