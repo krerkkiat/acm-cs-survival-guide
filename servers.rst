@@ -1,7 +1,7 @@
 .. role:: bash(code)
    :language: bash
 
-School Servers (or any server)
+School Servers
 ==============================================
 
 ===================
@@ -20,10 +20,10 @@ on the sidebar will give you the liist of name of the server.
 This list contains some other servers as well. The actual servers are prefixed with any of the
 following.
 
-* :bash:`odd`
-* :bash:`sp-`
-* :bash:`p`
-* :bash:`pu`
+* :bash:`odd` They are Ubuntu machines in the computer lab.
+* :bash:`sp-` They are also Ubuntu machines in the computer lab.
+* :bash:`p` They are the solaris machines
+* :bash:`pu` They are Ubuntu machines that has the same setup as the lab workstations.
 
 Since all of these are with EECS department, so the full address have to be something similar
 to the following.
@@ -33,11 +33,16 @@ to the following.
 * :bash:`p1.cs.ohio.edu`
 * :bash:`pu1.cs.ohio.edu`
 
+Even though they are all different machine, but the home folder of your account is travelling with
+you not matter which machines you are logging in to.
+
 ======================
 How to connect to one?
 ======================
 On linux or MacOS you can open the terminal emulator, and type
 
+.. code-block:: bash
+   $ ssh odd15.cs.ohio.edu
 
 =================
 File Transferring
@@ -63,5 +68,13 @@ This command though can overwrite the file, so be careful with it.
 More information can be found using :bash:`man scp` command.
 
 The following example is to transfer file from local machine to the server.
+
+=====================
+Note on other servers
+=====================
+If you have access to other server other than the school servers, all of the aforementioned information
+is also applied to other servers as well. 
+
+You can simply just use the hostname or public IP address of that server instead of the school servers' one.
 
 :bash:`scp ./project1.cc bobcat@odd15.cs.ohio.edu:/home/bobcat/project1.cc`

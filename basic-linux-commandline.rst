@@ -5,6 +5,21 @@
 Basic Unix Commands
 ==============================================
 
+=======================
+The :bash:`man` command
+=======================
+This :bash:`man` command allows you to get the manual page of the command. The manual page contains
+the overview description of the comand, its command line arguments, and some example.
+
+For example to get the manual page for :bash:`ls` command you can run,
+
+.. code-block:: bash
+   $ man ls
+
+The manual page can sometimes be hard to read, but it is available in every Linux or Unix-like machines.
+However, you can also refer to `Devhint <https://devhints.io>`_ which is quick reference for tools,
+commands, and topics in computer science.
+
 ================================
 :bash:`Ctrl+c` vs :bash:`Ctrl+z`
 ================================
@@ -67,4 +82,3 @@ However, you can add :bash:`-rt` to it to sort the result by time and show the r
 Downloading a file
 ==================
 :bash:`wget` or :bash:`curl` can be used to download a file to the remote server that you are connected to.
-
