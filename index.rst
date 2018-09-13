@@ -19,7 +19,7 @@ to 8pm at ARC 315.
    
    introduction
    servers
-   basic-linux-commandline
+   basic-unix-commands
    editor 
    vcs
    otheroses 
