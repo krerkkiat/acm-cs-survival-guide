@@ -40,7 +40,7 @@ GUI
 
   * Popular cross-platform text editor.
 * `Notepad++ <https://notepad-plus-plus.org/>`_
-project1.cc
+
   * Popular free text editor for Windows.
 * `Geany <https://www.geany.org/>`_
 
