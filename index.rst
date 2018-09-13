@@ -21,6 +21,7 @@ to 8pm at ARC 315.
    servers
    basic-linux-commandline
    editor 
+   vcs
    otheroses 
    more
    contributors

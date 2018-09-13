@@ -11,7 +11,8 @@ micro, and not to mention vim and emacs.
 
 The idea for this guide then begin to form base on the idea of introducing the
 more powerful editors to first year computer science students. It is then scaled into
-a presentaion "CS Survival Guide", and with the suggestion from graduated seniors, the guide
+a presentaion `"CS Survival Guide" <https://docs.google.com/presentation/d/1iybf_B2hZ4G_OO1sBR0F6j50CJuYcPNC31zsP491o8o/edit?usp=sharing>`_,
+and with the suggestion from graduated seniors, the guide
 is planed to have more information on the software, tools, and tricks that the graduated senior
 found useful.
 

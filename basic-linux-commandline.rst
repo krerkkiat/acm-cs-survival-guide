@@ -14,10 +14,11 @@ the overview description of the comand, its command line arguments, and some exa
 For example to get the manual page for :bash:`ls` command you can run,
 
 .. code-block:: bash
+
    $ man ls
 
 The manual page can sometimes be hard to read, but it is available in every Linux or Unix-like machines.
-However, you can also refer to `Devhint <https://devhints.io>`_ which is quick reference for tools,
+However, you can also refer to `Devhint <https://devhints.io>`_ which is a quick reference for tools,
 commands, and topics in computer science.
 
 ================================

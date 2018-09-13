@@ -1,7 +1,7 @@
 
 About us
 ==============================================
-This guide is created by Ohio University's Chapter of Association for Computing Machinery (ACM).
+We are Ohio University's Chapter of Association for Computing Machinery (ACM).
 We meet every Wednesday 7:30pm at ARC 315. We also host study session on every Thursday from 6pm
 to 8pm at ARC 315.
 

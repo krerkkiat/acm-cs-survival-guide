@@ -15,7 +15,7 @@ to talk to other students; also you still have to go to the lab).
 The list of the names can be obtain by go to `this page <http://ace.cs.ohio.edu/>`_.
 Then you click on the "EECS Machine and services status pages". Browser will prompt
 you to sign in, but you can just leave both fields blank. When you logged in, click on "Hosts"
-on the sidebar will give you the liist of name of the server.
+on the sidebar will give you the list of name of the server.
 
 This list contains some other servers as well. The actual servers are prefixed with any of the
 following.
@@ -42,6 +42,7 @@ How to connect to one?
 On linux or MacOS you can open the terminal emulator, and type
 
 .. code-block:: bash
+
    $ ssh odd15.cs.ohio.edu
 
 =================
@@ -74,12 +75,20 @@ More information can be found using :bash:`man scp` command.
 
 The following example is to transfer file from local machine to the server.
 
-:bash:`scp ./project1.cc bobcat@odd15.cs.ohio.edu:/home/bobcat/project1.cc`
+.. code-block:: bash
+
+   $ scp ./project1.cc bobcat@odd15.cs.ohio.edu:/home/bobcat/project1.cc
+
+The following example is to transfer a folder (recursively) from remote machine to the local machine.
+
+.. code-block:: bash
+
+   $ scp -r bobcat@odd15.cs.ohio.edu:/home/bobcat/cs2400/project1/ ./project1/
 
 =====================
 Note on other servers
 =====================
-If you have access to other server other than the school servers, all of the aforementioned information
+If you have access to other servers other than the school servers, all of the aforementioned information
 is also applied to other servers as well. 
 
 You can simply just use the hostname or public IP address of that server instead of the school servers' one.
