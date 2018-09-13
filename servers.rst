@@ -50,9 +50,14 @@ File Transferring
 There are serveral options to transfer the file from your laptop/pc to the servers.
 
 ---------
+WinSCP
+---------
+This is a file transferring tool that is part of the puTTY project. It will have access to your saved puTTY sessions, so you do not need to create new sessions for this tool.
+
+---------
 FileZilla
 ---------
-
+A popular free to use file transferring tool.
 
 ---------
 Cyberduck
@@ -69,6 +74,8 @@ More information can be found using :bash:`man scp` command.
 
 The following example is to transfer file from local machine to the server.
 
+:bash:`scp ./project1.cc bobcat@odd15.cs.ohio.edu:/home/bobcat/project1.cc`
+
 =====================
 Note on other servers
 =====================
@@ -76,5 +83,3 @@ If you have access to other server other than the school servers, all of the afo
 is also applied to other servers as well. 
 
 You can simply just use the hostname or public IP address of that server instead of the school servers' one.
-
-:bash:`scp ./project1.cc bobcat@odd15.cs.ohio.edu:/home/bobcat/project1.cc`
