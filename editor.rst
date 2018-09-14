@@ -3,7 +3,7 @@
 
 Editors
 ==============================================
-These are a list of some well known editors.
+Here are some well known editors.
 
 ============
 Command line
@@ -15,7 +15,7 @@ You will usually be told to use :bash:`nano`, but you also have the following op
    A simple lightweight text editor.
 
 * :bash:`micro`
-   A simple terminal-based and lightweight text editor written in Go. It is focus on being intuitive. More information
+   A simple lightweight text editor written in Go. It is focused on being intuitive. More information
    can be found at `https://micro-editor.github.io/ <https://micro-editor.github.io/>`_. :bash:`micro` is not installed
    by default on the school servers, but you can quickly download the prebuilt binary and run it as follow.
 
@@ -30,8 +30,8 @@ You will usually be told to use :bash:`nano`, but you also have the following op
 
 * :bash:`vim`
    Like :bash:`emacs` this editor is one of the more complicated to learn, but is also very powerful.
-   If you want to get a quick start in customizing you Vim editor, `Vim Bootstrap <https://vim-bootstrap.com/>`_ is a really good
-   place to start.
+   If you want to get a quick start in customizing you Vim editor, `Vim Bootstrap <https://vim-bootstrap.com/>`_ is
+   a really good place to start.
 
 ===
 GUI
@@ -55,9 +55,13 @@ All of these text editors (except for Notepad++) are available in Linux reposito
 Tips and Tricks
 ===============
 
-One quick note on line number. Most of the editor will turn on the line number by default for you.
-However, Gedit is not, so you can turn in on via :bash:`Edit->Preferences`.
-On :bash:`vim` you can use :bash:`set number` to show line number or :bash:`set nonumber` to turn it off.
+One quick note on line numbers. Most of editors will turn on line numbers by default for you.
+However Gedit does not, but you can turn them on via :bash:`Edit->Preferences`.
+On :bash:`vim` you can use the :bash:`:set number` command to show line numbers or :bash:`:set nonumber` to turn them off.
+
+If you ever accidently start :bash:`vim` you can quit without saving by typing :bash:`ESC:q!`.
+
+If you ever accidently start :bash:`emacs` you can quit without savig by typing :bash:`Ctrl-x Ctrl-c`
 
 If you write code on Windows and then copy the code to a Linux system, you will find the '^M' character at the end of every line.
 To remove these characters, you can run :bash:`sed -i 's/\r//g filename'` in the directory with the file.
