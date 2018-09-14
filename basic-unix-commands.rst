@@ -92,7 +92,7 @@ However, you can add :bash:`-rt` to it to sort the result by time and show the r
    -rw------- 1 krerkkiat krerkkiat  463097 Apr 19  2017 Ch15_PPT_Fund_Elec_Circ_6e-Day 1 (1).pptx
    -rw------- 1 krerkkiat krerkkiat 3614295 Apr 23  2017 EE2114 Final Review.pptx
    
-If you use :bash:`-a` it will show hidden files (these are files that start with a `.`).
+If you use :bash:`-a` it will show hidden files (these are files that start with a '.').
 
 ==================
 Downloading a file
