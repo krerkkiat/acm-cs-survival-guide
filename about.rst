@@ -5,9 +5,13 @@ About
 ================
 About This Guide
 ================
-The creation of this guide is inspired by `ths documents <http://ace.cs.ohio.edu/>`_ and especially
-`this one <http://ace.cs.ohio.edu/eecshelp.html>`_ and `this one <http://ace.cs.ohio.edu/new_users/index.html>`_
+The creation of this guide is inspired by `these documents <http://ace.cs.ohio.edu/>`_, especially
+`this one <http://ace.cs.ohio.edu/eecshelp.html>`_ and `this one <http://ace.cs.ohio.edu/new_users/index.html>`_,
 that Mr. Tysko has for the new users of the EECS machines.
+
+The guide was almost be written in LaTeX which may be really hard to maintain.
+The thank should go to Raymond Hettinger (`@raymondh <https://twitter.com/raymondh>`_) from saving the guide
+to be written in LaTeX with one of his `talk <https://youtu.be/T-TwcmT6Rcw>`_ at PyCon 2018 (Cleveland).
 
 ========
 About Us

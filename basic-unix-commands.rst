@@ -25,8 +25,9 @@ Many commands also have a help option that will give you some information. For e
 you can run
 
 .. code-block:: bash
+
    $ ls --help
-   
+
 The exact syntax will vary by command if available at all.
 
 ================================
@@ -39,12 +40,27 @@ stop the program you are running (e.g. program that stuck in infinite loop).
 If you use :bash:`Ctrl+z` a lot and don't kill or restart the processes, you will end up with a lot of
 processes just sitting there.
 
-To restart a suspended process in the foreground, you can use the :bash:`fg` command. :bash:`bg` will restart
-a process in the background.
+To list the program that in the background, :bash:`jobs` can be used. To restart a suspended process in
+the foreground, you can use the :bash:`fg` command. :bash:`bg` will restart a process in the background.
 
-=======
-Listing
-=======
+Starting the command with '&' at the end will start the job in the background from start. Be careful though
+since output will still show up on the shell, so be sure to do some proper redirection of the outputs.
+
+====================================
+:bash:`ps` and :bash:`kill` commands
+====================================
+This follow from the previous section where if you found yourself in the situation where many processes are suspended
+in the background. 
+
+============================
+Input and output redirection
+============================
+This will be useful if the project or assignment has the input test cases, so you can just use the input redirection,
+so you do not have to type in the input everytime.
+
+=================
+Directory Listing
+=================
 To view the contents of the directory you are in, run :bash:`ls`. This is the most basic form of the command.
 
 :bash:`ls -l`, shows more details, such as permissions size and the last time the files were edited. This will
