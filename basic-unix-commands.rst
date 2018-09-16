@@ -46,6 +46,14 @@ the foreground, you can use the :bash:`fg` command. :bash:`bg` will restart a pr
 Starting the command with '&' at the end will start the job in the background from start. Be careful though
 since output will still show up on the shell, so be sure to do some proper redirection of the outputs.
 
+=============================================
+What about :bash:`Ctrl+s` and :bash:`Ctrl+q`?
+=============================================
+If you accidentally hit :bash:`Ctrl+s`, what you will experience is the terminal is freeze from any other
+inputs that you are trying to type in. To resolve that hit :bash:`Ctrl+q` to unfreeze it.
+
+For deeper detail and history, please see `this stack exchange question <https://unix.stackexchange.com/questions/12107/how-to-unfreeze-after-accidentally-pressing-ctrl-s-in-a-terminal>`_.
+
 ====================================
 :bash:`ps` and :bash:`kill` commands
 ====================================
