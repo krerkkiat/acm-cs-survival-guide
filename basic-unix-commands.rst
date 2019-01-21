@@ -9,7 +9,7 @@ Basic Unix Commands
 The :bash:`man` command
 =======================
 This :bash:`man` command allows you to read the manual pages for a command. The manual page contains
-the overview description of the comand, its command line arguments, and some example.
+the overview description of the command, its command line arguments, and some example.
 
 For example to get the manual page for :bash:`ls` command you can run,
 
@@ -49,7 +49,7 @@ since output will still show up on the shell, so be sure to do some proper redir
 =============================================
 What about :bash:`Ctrl+s` and :bash:`Ctrl+q`?
 =============================================
-If you accidentally hit :bash:`Ctrl+s`, what you will experience is the terminal is freeze from any other
+If you accidentally hit :bash:`Ctrl+s`, what you will experience is the terminal is frozen from any other
 inputs that you are trying to type in. To resolve that hit :bash:`Ctrl+q` to unfreeze it.
 
 For deeper detail and history, please see `this stack exchange question <https://unix.stackexchange.com/questions/12107/how-to-unfreeze-after-accidentally-pressing-ctrl-s-in-a-terminal>`_.
@@ -64,7 +64,7 @@ in the background.
 Input and output redirection
 ============================
 This will be useful if the project or assignment has the input test cases, so you can just use the input redirection,
-so you do not have to type in the input everytime.
+so you do not have to type in the input every time.
 
 =================
 Directory Listing

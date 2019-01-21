@@ -21,7 +21,7 @@ options, all but one will work on any host OS.
 ----------
 VirtualBox
 ----------
-A popular and free "general-purpose full virtualizer for x86 harware, targeted at server, desktop and embedded use".
+A popular and free "general-purpose full virtualizer for x86 hardware, targeted at server, desktop and embedded use".
 
 ----
 QEMU

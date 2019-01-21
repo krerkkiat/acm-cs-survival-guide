@@ -37,9 +37,9 @@ You will usually be told to use :bash:`nano`, but you also have the following op
 GUI
 ===
 * `VS Code <https://code.visualstudio.com/>`_
-   Microsoft's cross-platform text editor.
+   Microsoft's cross-platform text editor. It has a `set of extensions <https://visualstudio.microsoft.com/services/live-share/>`_ that allow users to remotely collaborate on the project. 
 * `Atom <https://atom.io/>`_
-   Popular cross-platform text editor.
+   Popular cross-platform text editor. This editor also have functionality that is similar to the live collaboration of VS Code. More information can be found `here <https://teletype.atom.io/>`_.
 * `Sublime Text <https://www.sublimetext.com/>`_
    Popular cross-platform text editor.
 * `Notepad++ <https://notepad-plus-plus.org/>`_
@@ -59,9 +59,9 @@ One quick note on line numbers. Most of editors will turn on line numbers by def
 However Gedit does not, but you can turn them on via :bash:`Edit->Preferences`.
 On :bash:`vim` you can use the :bash:`:set number` command to show line numbers or :bash:`:set nonumber` to turn them off.
 
-If you ever accidently start :bash:`vim` you can quit without saving by typing :bash:`ESC:q!`.
+If you ever accidentally start :bash:`vim` you can quit without saving by typing :bash:`ESC:q!`.
 
-If you ever accidently start :bash:`emacs` you can quit without savig by typing :bash:`Ctrl-x Ctrl-c`
+If you ever accidentally start :bash:`emacs` you can quit without saving by typing :bash:`Ctrl-x Ctrl-c`
 
 If you write code on Windows and then copy the code to a Linux system, you will find the '^M' character at the end of every line.
 To remove these characters, you can run :bash:`sed -i 's/\r//g filename'` in the directory with the file.
